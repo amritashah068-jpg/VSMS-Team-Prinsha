@@ -1,0 +1,16 @@
+Diagram ID: D-SQ-01
+@startuml
+actor Customer
+participant "Web Portal UI" as UI
+participant "Appointment Controller" as AC
+participant "Database" as DB
+
+Customer -> UI: Select Service & Preferred Slot
+UI -> AC: Submit Booking Request (Params)
+AC -> DB: Query Slot Availability
+DB --> AC: Slot Available (True)
+AC -> DB: Insert New Booking Record
+DB --> AC: Confirm Insertion (Booking ID)
+AC --> UI: Render Booking Confirmation Page
+UI --> Customer: Display Success Notification
+@enduml
