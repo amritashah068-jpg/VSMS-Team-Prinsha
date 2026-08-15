@@ -1,32 +1,50 @@
-# VSMS-Team-Prinsha
-System Analysis and Design Project - Vehicle Service Management System
 # Vehicle Service Management System (VSMS)
+**Course Project:** System Analysis and Design  
+**Repository:** `VSMS-Team-Prinsha`  
+**Version:** `V-1.0`  
+
+---
 
 ## Project Overview
-A comprehensive software application that automates the workshop, schedules customer appointments, assigns mechanics, records spare parts and man hours, and creates digital billing invoices.
+The **Vehicle Service Management System (VSMS)** is a web-based platform designed to streamline garage operations, service appointment scheduling, repair progress tracking, inventory management, and automated digital invoicing.
 
 ---
 
-## Team & Management
-* **Project Lead:** Prinsha
-* **Agile Management:** Trello Board
-* **Methodology:** Scrum (Sprint 1 & Sprint 2)
+## Project Structure & Deliverables
+
+| Deliverable | Document ID | Location | Status |
+| :--- | :--- | :--- | :--- |
+| **Functional Requirements** | `DOC-01-FR` | [`requirements/V-1.0/functional-requirements.md`](requirements/V-1.0/functional-requirements.md) | Approved |
+| **Non-Functional Requirements** | `DOC-02-NFR` | [`requirements/V-1.0/non-functional-requirements.md`](requirements/V-1.0/non-functional-requirements.md) | Approved |
+| **UML Architecture Specs** | `DOC-03-UML` | [`design/uml-diagrams.md`](design/uml-diagrams.md) | Approved |
+| **Test Case Matrix & RTM** | `DOC-04-TC` | [`testing/test-matrix.md`](testing/test-matrix.md) | Approved |
 
 ---
 
-## System User Stories & Sprints
+## System Architecture & Diagrams
 
-### Sprint 1 (Completed)
-* **[US-01]** Customer Registration and Profile Management (5 pts)
-* **[US-02]** Vehicle Information Entry (3 pts)
-* **[US-03]** Online Appointment Booking (5 pts)
-* **[US-04]** Appointment View and Mechanics Assignment (3 pts)
-* **[US-05]** Real-Time Repair Status Updates (5 pts)
+The system design includes four core UML diagrams adhering to standard modeling conventions:
+* **Use Case Diagram (`D-UC-01`):** User interaction models for Customer, Mechanic, and Administrator.
+* **Class Diagram (`D-CL-01`):** Domain entities, attributes, methods, and class relationships.
+* **Sequence Diagram (`D-SQ-01`):** Execution flow for booking service appointments.
+* **Activity Diagram (`D-ACT-01`):** Operational workflow for vehicle inspection, repair logging, and invoicing.
 
-### Sprint 2 (Active)
-.
-* **[US-06]** Spare Parts and Labor Tracking (5 pts)
-* **[US-07]** Digital Invoice Generation (5 pts)
-* **[US-08]** SMS/Email Pickup Notifications (2 pts)
-* **[US-09]** Maintenance & Service History View (3 pts)
-* **[US-10]** Admin Daily Revenue Reports (3 pts)
+---
+
+## Artifact Naming Conventions
+
+* **Epics:** `EP-01`, `EP-02`
+* **User Stories:** `US-01`, `US-02`, `US-03`, `US-06`, `US-07`
+* **Tasks/Tickets:** `T-101`, `T-102`, `T-103`, `T-106`, `T-107`
+* **Requirements:** `FR-01` to `FR-08`, `NFR-01` to `NFR-05`
+* **UML Diagrams:** `D-UC-01`, `D-CL-01`, `D-SQ-01`, `D-ACT-01`
+* **Test Cases:** `TC-T-101-01` to `TC-T-107-01`
+
+---
+
+## Team & Governance
+
+* **Product Owner:** Sita Kumari
+* **Scrum Master:** Hari Bahadur
+* **Instructor / Evaluator:** Gaman Aryal
+* **Systems Analyst & Contributor:** Amrita Shah
