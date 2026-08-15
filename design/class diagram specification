@@ -1,0 +1,47 @@
+## 2. Class Diagram Specification
+* **Diagram ID:** `D-CL-01`
+
+```plantuml
+@startuml
+class User {
+    +int userId
+    +string name
+    +string email
+    +string passwordHash
+    +string role
+    +login()
+}
+
+class Vehicle {
+    +string vin
+    +string licensePlate
+    +string make
+    +string model
+}
+
+class Appointment {
+    +int appointmentId
+    +date serviceDate
+    +string status
+    +createBooking()
+}
+
+class JobSheet {
+    +int jobId
+    +string repairDetails
+    +string status
+    +updateStatus()
+}
+
+class Invoice {
+    +int invoiceId
+    +double totalAmount
+    +date generatedDate
+    +generatePDF()
+}
+
+User "1" -- "*" Vehicle : owns >
+Customer "1" -- "*" Appointment : schedules >
+Appointment "1" -- "1" JobSheet : generates >
+JobSheet "1" -- "1" Invoice : calculates >
+@enduml
