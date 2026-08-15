@@ -24,6 +24,7 @@ An integrated software engineering solution designed to automate workshop operat
 * **[US-05]** Real-Time Repair Status Updates (5 pts)
 
 ### Sprint 2 (Active)
+.
 * **[US-06]** Spare Parts and Labor Tracking (5 pts)
 * **[US-07]** Digital Invoice Generation (5 pts)
 * **[US-08]** SMS/Email Pickup Notifications (2 pts)
