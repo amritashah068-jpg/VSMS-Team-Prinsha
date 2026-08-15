@@ -3,7 +3,7 @@ System Analysis and Design Project - Vehicle Service Management System
 # Vehicle Service Management System (VSMS)
 
 ## Project Overview
-An integrated software engineering solution designed to automate workshop operations, manage customer appointments, track mechanic assignments, log spare parts and labor, and generate digital billing invoices.
+A comprehensive software application that automates the workshop, schedules customer appointments, assigns mechanics, records spare parts and man hours, and creates digital billing invoices.
 
 ---
 
