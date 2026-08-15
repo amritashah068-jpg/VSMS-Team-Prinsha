@@ -1,0 +1,17 @@
+Diagram ID: D-ACT-01
+@startuml
+start
+:Mechanic Logs into VSMS Dashboard;
+:Select Assigned Vehicle Job Sheet;
+:Inspect Vehicle & Diagnose Issues;
+if (Spare Parts Required?) then (Yes)
+  :Select Parts from Inventory;
+  :Deduct Quantity from Stock;
+else (No)
+  :Proceed with Standard Service;
+endif
+:Update Repair Status to "Completed";
+:Trigger Automated Notification Service;
+:Generate Invoice Record;
+stop
+@enduml
