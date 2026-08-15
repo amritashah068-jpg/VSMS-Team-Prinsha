@@ -1,0 +1,40 @@
+# Document Title: UML Systems Architecture Specifications - VSMS
+# Document ID: DOC-03-UML
+# Version: V-1.0
+# Project: Vehicle Service Management System
+# Author: Amrita Shah
+# Stakeholder: Product Owner (Sita Kumari)
+# Reviewed By: Scrum Master (Hari Bahadur)
+# Approved By: Instructor (Gaman Aryal)
+# Created On: 2026-04-10
+# Last Updated: 2026-04-15
+# Status: Approved
+
+---
+
+## 1. Use Case Diagram Specification
+* **Diagram ID:** `D-UC-01`
+* **Actors:** Customer, Workshop Mechanic, System Administrator
+
+![Use Case Diagram](D-UC-01.png)
+
+---
+
+## 2. Class Diagram Specification
+* **Diagram ID:** `D-CL-01`
+
+![Class Diagram](D-CL-01.png)
+
+---
+
+## 3. Sequence Diagram Specification
+* **Diagram ID:** `D-SQ-01`
+
+![Sequence Diagram](D-SQ-01.png)
+
+---
+
+## 4. Activity Diagram Specification
+* **Diagram ID:** `D-ACT-01`
+
+![Activity Diagram](D-ACT-01.png)
