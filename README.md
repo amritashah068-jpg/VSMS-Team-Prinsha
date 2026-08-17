@@ -1,6 +1,6 @@
 # Vehicle Service Management System (VSMS)
 **Course Project:** System Analysis and Design  
-**Repository:** `VSMS-Team-Prinsha`  
+**Repository:** `VSMS-Team-Prinsha-Amrita Shah`  
 **Version:** `V-1.0`  
 
 ---
@@ -47,4 +47,4 @@ The system design includes four core UML diagrams adhering to standard modeling 
 * **Product Owner:** Sita Kumari
 * **Scrum Master:** Hari Bahadur
 * **Instructor / Evaluator:** Gaman Aryal
-* **Systems Analyst & Contributor:** Amrita Shah
+* **Systems Analyst & Contributor:** Amrita Shah / Prinsha Kusiyait
