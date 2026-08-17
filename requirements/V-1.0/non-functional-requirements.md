@@ -2,7 +2,7 @@
 # Document ID: DOC-02-NFR
 # Version: 1.0
 # Project: Vehicle Service Management System
-# Author: Ram Ghimire
+# Author: Amrita Shah / Prinsha Kusiyait
 # Stakeholder: Product Owner (Sita Kumari)
 # Reviewed By: Scrum Master (Hari Bahadur)
 # Approved By: Instructor (Gaman Aryal)
